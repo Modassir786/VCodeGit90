@@ -1,0 +1,142 @@
+body{
+    background:rgb(247, 244, 244);
+}
+.Signup_form_control{
+    margin-top:3px;
+}
+label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    color:rgba(2, 2, 29, 0.986);
+}
+.Signup{
+    width:99.5%;
+    padding-left:5px;
+    border-radius: 3px;
+    border:1px solid #aaa;
+    outline-color: rgb(92, 92, 161);
+    outline-style: initial;
+    height:30px;
+}
+.Male{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:13px;
+    margin-left:15px;
+}
+.sex{
+    border:1px solid #aaa;
+    height:30px;
+    cursor:pointer;
+    background:#fff;
+    user-select:none;
+    width:99.5%;
+    padding-top:3px;
+}
+.radio1,.radio2,.radio3{
+    margin-left:2px;
+    position: absolute;
+    margin-top:5px;
+    cursor:pointer;
+    user-select:none;
+    cursor:pointer;
+    user-select:none;
+}
+.date{
+   padding-left:5px;
+   outline:none;
+   cursor:pointer;
+   user-select:none;
+   margin-left:8px;
+   color:rgb(5, 5, 61);
+   border:1px solid rgb(4, 82, 4);
+}
+#birth{
+    margin-left:33px;
+}
+.upload{
+    color:rgb(221, 104, 8);
+    cursor:pointer;
+    width:200px;
+    border:none;
+    user-select:none;
+}
+.sex, #H{
+    margin-top:4px;
+    background: #fff;
+}
+.top_letters{
+    color:rgb(8, 99, 8);
+    user-select:none;
+    text-align:center;
+}
+.btn_Signup{
+    position:absolute;
+    width:110px;
+    padding:6px;
+    top:92px;
+    right:2px;
+    cursor:pointer;
+    background:rgb(236, 161, 21);
+    outline-offset: 1rem;
+    outline-style:inherit;
+    color:#fff;
+    border-radius:2px;
+    font-weight:bold;
+    border:1px solid rgb(209, 196, 13);
+}
+.alert_message{
+    position: fixed;
+    width:500px;
+    margin-top:10px;
+    user-select:none;
+    text-align:center;
+    font-weight: 300;
+}
+.upload_file{
+    width:500px;
+    height:39px;
+    background:#fff;
+    border:1px solid #aaa;
+}
+#file{
+    margin-left:5px;
+    margin-top:10px;
+}
+#upload_message{
+    width:200px;
+    font-size:12px;
+    user-select:none;
+    font-family: sans-serif;
+    color:rgb(255, 72, 0);
+}
+#btn_upload{
+    width:100px;
+    padding:3.5px;
+    float:right;
+    outline-color:rgb(255, 72, 0);
+    outline-style: inherit;
+    border:1px solid rgb(255, 72, 0);
+    background:rgb(255, 72, 0);
+    color:#fff;
+    cursor:pointer;
+    font-size:12px;
+    border-radius:3px;
+    margin-top:4px;
+    margin-right:3px;
+}
+.btn_login{
+    position:absolute;
+    width:110px;
+    padding:6px;
+    top:92px;
+    right:114px;
+    background:rgb(32, 30, 148);
+    outline-offset: 1rem;
+    outline-style:inherit;
+    color:#fff;
+    cursor:pointer;
+    border-radius:2px;
+    font-weight:bold;
+    border:1px solid rgb(32, 30, 148);
+}

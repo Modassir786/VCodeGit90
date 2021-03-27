@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('Css_part1.css');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.Signup_input_area{
+    position:fixed;
+    width:500px;
+    padding-top:10px;
+    height:525px;
+    margin-left:-507px;
+    background:rgba(255, 255, 255, 0.596);
+    top:91px;
+    transition:1s;
+    left:7px;
+}
+.btn{
+    margin-top:3px;
+    color:#fff;
+    font-weight:bold;
+    cursor:pointer;
+    background:rgb(14, 202, 14);
+}
